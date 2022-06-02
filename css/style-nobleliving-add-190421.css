@@ -1,0 +1,387 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray-100: #1a1a1a;
+  --gray-90: #333333;
+  --gray-80: #4d4d4d;
+  --gray-70: #666666;
+  --gray-60: #808080;
+  --gray-50: #999999;
+  --gray-40: #b3b3b3;
+  --gray-30: #cccccc;
+  --gray-20: #e6e6e6;
+  --gray-10: #f2f2f2;
+  --maid-100: #001b33;
+  --maid-90: #003666;
+  --maid-80: #005299;
+  --maid-70: #006dcc;
+  --maid-60: #0088ff;
+  --maid-50: #33a0ff;
+  --maid-40: #66b8ff;
+  --maid-30: #99cfff;
+  --maid-20: #cce7ff;
+  --maid-10: #e6f3ff;
+  --air-100: #1d0e25;
+  --air-90: #3b1c4a;
+  --air-80: #582b6e;
+  --air-70: #753993;
+  --air-60: #9247b8;
+  --air-50: #a86cc6;
+  --air-40: #be91d4;
+  --air-30: #d4b5e3;
+  --air-20: #e9daf1;
+  --air-10: #f4edf8;
+  --laundry-100: #10280b;
+  --laundry-90: #204f17;
+  --laundry-80: #307722;
+  --laundry-70: #41a02e;
+  --laundry-60: #51c639;
+  --laundry-50: #74d161;
+  --laundry-40: #96dd88;
+  --laundry-30: #b9e8b0;
+  --laundry-20: #dcf4d7;
+  --laundry-10: #eef9eb;
+  --spa-100: #0e2525;
+  --spa-90: #1c4a4a;
+  --spa-80: #2a6f6f;
+  --spa-70: #389494;
+  --spa-60: #46b9b9;
+  --spa-50: #6bc7c7;
+  --spa-40: #90d5d5;
+  --spa-30: #b5e3e3;
+  --spa-20: #daf1f1;
+  --spa-10: #ecf8f8;
+  --hygienic-100: #0b2128;
+  --hygienic-90: #17414f;
+  --hygienic-80: #226277;
+  --hygienic-70: #2d839f;
+  --hygienic-60: #39a3c6;
+  --hygienic-50: #60b6d2;
+  --hygienic-40: #88c8dd;
+  --hygienic-30: #b0dae8;
+  --hygienic-20: #d7edf4;
+  --hygienic-10: #ebf6f9;
+  --tasty-100: #2f1204;
+  --tasty-90: #5e2508;
+  --tasty-80: #8e370b;
+  --tasty-70: #bd490f;
+  --tasty-60: #ec5b13;
+  --tasty-50: #f07c42;
+  --tasty-40: #f49d71;
+  --tasty-30: #f7bea1;
+  --tasty-20: #fbded0;
+  --tasty-10: #fdefe7;
+  --gourmet-100: #2d2606;
+  --gourmet-90: #594d0d;
+  --gourmet-80: #867313;
+  --gourmet-70: #b3991a;
+  --gourmet-60: #dfbf20;
+  --gourmet-50: #e5cc4d;
+  --gourmet-40: #ecd979;
+  --gourmet-30: #f2e6a6;
+  --gourmet-20: #f9f2d2;
+  --gourmet-10: #fcf9e9;
+  --carwash-100: #181a1b;
+  --carwash-90: #313435;
+  --carwash-80: #494e50;
+  --carwash-70: #61686b;
+  --carwash-60: #7a8285;
+  --carwash-50: #949b9e;
+  --carwash-40: #afb4b6;
+  --carwash-30: #cacdce;
+  --carwash-20: #e4e6e7;
+  --carwash-10: #f2f3f3;
+  --danger-100: #420b0b;
+  --danger-90: #6d1212;
+  --danger-80: #991a1a;
+  --danger-70: #c52121;
+  --danger-60: #de3a3a;
+  --danger-50: #e56666;
+  --danger-40: #ed9292;
+  --danger-30: #f4bdbd;
+  --danger-20: #fbe9e9;
+  --danger-10: #ffffff;
+  --warning-100: #382a00;
+  --warning-90: #6b5000;
+  --warning-80: #9e7700;
+  --warning-70: #d19d00;
+  --warning-60: #ffc107;
+  --warning-50: #ffcd38;
+  --warning-40: #ffda6b;
+  --warning-30: #ffe79e;
+  --warning-20: #fff4d1;
+  --warning-10: #fffaeb;
+  --success-100: #0a3d0a;
+  --success-90: #116911;
+  --success-80: #189518;
+  --success-70: #1fc11f;
+  --success-60: #35de35;
+  --success-50: #61e661;
+  --success-40: #8ded8d;
+  --success-30: #b9f4b9;
+  --success-20: #e5fbe5;
+  --success-10: #fbfefb;
+  --info-100: #003247;
+  --info-90: #00557a;
+  --info-80: #0079ad;
+  --info-70: #009bde;
+  --info-60: #14b8ff;
+  --info-50: #47c8ff;
+  --info-40: #7ad7ff;
+  --info-30: #ade6ff;
+  --info-20: #e0f6ff;
+  --info-10: #fafdff;
+  --brick-100: #2e150a;
+  --brick-90: #582713;
+  --brick-80: #823a1c;
+  --brick-70: #ab4d26;
+  --brick-60: #d26132;
+  --brick-50: #db815c;
+  --brick-40: #e4a286;
+  --brick-30: #eec2b0;
+  --brick-20: #f7e2d9;
+  --brick-10: #fbf2ee;
+  --cement-100: #242728;
+  --cement-90: #3c4143;
+  --cement-80: #555b5e;
+  --cement-70: #6e767a;
+  --cement-60: #868e92;
+  --cement-50: #a1a7aa;
+  --cement-40: #bcc0c3;
+  --cement-30: #d7d9db;
+  --cement-20: #f2f2f3;
+  --cement-10: #ffffff;
+  --sand-100: #352912;
+  --sand-90: #5c471f;
+  --sand-80: #82642c;
+  --sand-70: #a88239;
+  --sand-60: #c49c4f;
+  --sand-50: #d1b176;
+  --sand-40: #dec79c;
+  --sand-30: #eaddc2;
+  --sand-20: #f7f2e8;
+  --sand-10: #fefdfb;
+  --steel-100: #1f2224;
+  --steel-90: #363c3f;
+  --steel-80: #4d565b;
+  --steel-70: #657076;
+  --steel-60: #7e8a91;
+  --steel-50: #99a3a8;
+  --steel-40: #b4bbbf;
+  --steel-30: #d0d5d7;
+  --steel-20: #eceeef;
+  --steel-10: #f9fafa;
+}
+.box-package.hygienic {
+  background-color: #ECF8F8;
+}
+.box-package.hygienic .package-list {
+  padding-top: 0;
+}
+.box-package.hygienic .package-box.hygienic {
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+}
+.box-package.hygienic .package-box.hygienic.rec {
+  overflow: hidden;
+  border: 1px solid var(--danger-70);
+}
+.box-package.hygienic .package-box.hygienic.rec .package-name {
+  padding-right: 3rem;
+  min-height: 64px;
+}
+.box-package.hygienic .package-box.hygienic.rec .package-desc {
+  padding-right: 2rem;
+}
+.box-package.hygienic .package-box.hygienic.rec::after {
+  content: 'Recommend';
+  display: block;
+  padding: 0.2rem 1.5rem;
+  position: absolute;
+  top: 24px;
+  right: -34px;
+  transform: rotate(45deg);
+  font-family: Med;
+  font-size: 18px;
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--danger-70);
+}
+.box-package.hygienic .package-box.hygienic .img {
+  width: 96px;
+  min-width: 96px;
+  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+.box-package.hygienic .package-box.hygienic .img .btn-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  background-color: var(--white);
+  background-position: top left;
+  border-radius: 0 0 14px 0;
+}
+.box-package.hygienic .package-box.hygienic .img .img-service {
+  width: 100%;
+  display: block;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+.box-package.hygienic .package-box.hygienic .info {
+  flex-grow: 1;
+  padding-left: 12px;
+}
+.box-package.hygienic .package-box.hygienic .info .package-name {
+  margin-bottom: 0.2rem;
+  font-size: 22px;
+  letter-spacing: normal;
+}
+.box-package.hygienic .package-box.hygienic .info .package-desc {
+  margin-bottom: 0.4rem;
+}
+.box-package.hygienic .package-box.hygienic .info .package-price {
+  align-items: flex-end;
+}
+.box-package.hygienic .package-box.hygienic .info .price {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.box-package.hygienic .package-box.hygienic .info .price .special {
+  color: var(--danger-70);
+}
+.box-package.hygienic .package-box.hygienic .info .price .special + .normal {
+  text-decoration: line-through;
+}
+.box-package.hygienic .package-box.hygienic .info .price .normal,
+.box-package.hygienic .package-box.hygienic .info .price .special {
+  margin-right: 0;
+}
+.box-bottom-action {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0.8rem 0.8rem 1.6rem;
+  width: 100%;
+  background-color: var(--white);
+}
+.box-bottom-action.notification {
+  display: flex;
+  justify-content: center;
+}
+.box-bottom-action.maid,
+.box-bottom-action.air,
+.box-bottom-action.laundry,
+.box-bottom-action.hygienic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-bottom-action.maid .info,
+.box-bottom-action.air .info,
+.box-bottom-action.laundry .info,
+.box-bottom-action.hygienic .info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: Med;
+  text-transform: uppercase;
+  letter-spacing: 0.01rem;
+}
+.box-bottom-action.maid .info .label,
+.box-bottom-action.air .info .label,
+.box-bottom-action.laundry .info .label,
+.box-bottom-action.hygienic .info .label {
+  font-size: 20px;
+}
+.box-bottom-action.maid .info .value,
+.box-bottom-action.air .info .value,
+.box-bottom-action.laundry .info .value,
+.box-bottom-action.hygienic .info .value {
+  font-family: Bd;
+  font-size: 30px;
+}
+.box-bottom-action.maid .btn,
+.box-bottom-action.air .btn,
+.box-bottom-action.laundry .btn,
+.box-bottom-action.hygienic .btn {
+  width: 120px;
+}
+.box-bottom-action.maid {
+  color: var(--white);
+  background-color: #2676bc;
+}
+.box-bottom-action.air {
+  color: var(--white);
+  background-color: #612f7a;
+}
+.box-bottom-action.laundry {
+  color: var(--white);
+  background-color: #459713;
+}
+.box-bottom-action.hygienic {
+  color: var(--white);
+  background-color: #39a3c6;
+}
+/* Day */
+.days,
+.time {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.days div,
+.time div {
+  margin: 2px;
+  font-family: Med;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  width: calc((100% - 28px) / 7);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.days div.active,
+.time div.active {
+  color: var(--brick-60);
+  background-color: rgba(210, 97, 50, 0.05);
+  border: 1px solid var(--brick-60);
+}
+.days div.disabled,
+.time div.disabled {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: transparent;
+}
+.days div.prev-date,
+.time div.prev-date,
+.days div.next-date,
+.time div.next-date {
+  opacity: 0.5;
+  border-color: transparent;
+}
+.days div.today,
+.time div.today {
+  background-color: rgba(221, 198, 154, 0.5);
+}
+.days div.pass-date,
+.time div.pass-date {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: transparent;
+}

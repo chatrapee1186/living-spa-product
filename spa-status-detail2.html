@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Status</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style-nobleliving.css" />
+    <link rel="stylesheet" href="css/style-nobleliving-add.css" />
+    <style>
+        .text-notes {
+            font-family: Reg;
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        .date-cancel {
+            font-family: Reg;
+            font-size: 18px;
+            text-decoration: line-through;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        .btn-circle {
+            width: 40px;
+            height: 40px;
+            padding: 8px;
+            border-radius: 50%;
+        }
+
+        .btn-gray {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page" id="main">
+        <!-- Appbar -->
+        <nav class="app-navbar">
+            <div class="ribbon">
+                <div class="strip color-1"></div>
+                <div class="strip color-2"></div>
+                <div class="strip color-3"></div>
+                <div class="strip color-4"></div>
+            </div>
+            <!-- <div class="app-navbar-inner">
+				<div class="i-avatar"></div>
+				<img class="app-logo" src="images/logo-noble_id.png" />
+				<ul class="app-lang">
+					<li><a class="app-lang-link active" href="#">EN</a></li>
+					<li><a class="app-lang-link" href="#">TH</a></li>
+				</ul>
+			</div> -->
+        </nav>
+        <!-- Navbar Page -->
+        <nav class="page-navbar" style="border-bottom: 1px solid rgba(0, 0, 0, 0.05);">
+            <button class="btn btn-back" type="button" onclick="window.history.go(-1)"></button><span
+                class="title">Service Status Detail</span>
+        </nav>
+        <!-- Body -->
+        <div class="box">
+            <div class="header">
+                <div class="service-detail-heading" style="padding-bottom: 0.6rem; border-bottom: 1px solid rgba(0, 0, 0, 0.05);">
+                    <div class="icon">
+                        <img src="images/i-service-spa.svg" alt="" style="background-color: #EBF6F9;">
+                    </div>
+                    <div class="info">
+                        <h1 class="title">Wellness Spa</h1>
+                        <p class="desc">REF ID : NBLV00090127471</p>
+                        <div class="box-status warning">Waiting for payment</div>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <!-- Location -->
+                <div class="service-detail-list-item">
+                    <div class="detail-box">
+                        <div class="heading">
+                            <h5 class="title">ESTIMATE DATE OF RECEIVING</h5>
+                        </div>
+                        <div class="body">
+                            <div class="list-heading">
+                                <div class="item">
+                                    <div class="label-product-date">20-23 June 2021</div>
+                                </div>
+                            </div>
+                            <div class="list-body">
+                                <div class="item">
+                                    <div class="label">Order Date : 11 June 2021</div>
+                                </div>
+                            </div>
+                            <div class="list-footer">
+                                <div class="item">
+                                    <div class="label"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Service -->
+                <div class="service-detail-list-item">
+                    <div class="detail-box adj">
+                        <div class="heading">
+                            <h5 class="title">Service</h5>
+                        </div>
+                        <div class="body">
+                            <div class="list-heading">
+                                <div class="item">
+                                    <div class="label">
+                                         Eastern Treat Shower & Bath Cream 230 ml
+                                    </div>
+                                    <div class="quantity-product">x1</div>
+                                    <div class="value-product-price">1,300 THB</div>
+                                </div>
+                                <div class="item" style="margin-bottom: 8px;">
+                                    <div class="label">
+                                        Eastern Treat Nourish Body Cream 220 ml
+                                    </div>
+                                    <div class="quantity-product">x1</div>
+                                    <div class="value-product-price">1,300 THB</div>
+                                </div>
+                            </div>
+                            <div class="list-footer">
+                                <div class="item">
+                                    <div class="label-total-service">
+                                        TOTAL SERVICE
+                                    </div>
+                                    <div class="value-product" style="white-space: nowrap">
+                                        1,600 THB
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="label-total-service">
+                                        DELIVERY FEE
+                                    </div>
+                                    <div class="value-product" style="white-space: nowrap">
+                                        70 THB
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="label-total">
+                                        Total <br> <span class="text-notes-product">
+                                            (Vat 7% Included)</span>
+                                    </div>
+                                    <div class="value-total" style="white-space: nowrap">
+                                        1,670 THB
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional -->
+                <div class="service-detail-list-item">
+                    <div class="detail-box">
+                        <div class="heading">
+                            <h5 class="title">Additional</h5>
+                        </div>
+                        <div class="body">
+                            <div class="list-heading">
+                                <div class="item">
+                                    <div class="label"></div>
+                                </div>
+                            </div>
+                            <div class="list-body">
+                                <div class="item">
+                                    <div class="label">-</div>
+                                </div>
+                            </div>
+                            <div class="list-footer">
+                                <div class="item">
+                                    <div class="label"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-detail-list-item" style="padding-top: 16px;">
+                    <button class="btn btn-next" type="button">Continue Payment</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+
+<style>
+    .detail-box .body .list-heading .item .value-product-price {
+        font-family: Bd;
+        font-size: 20px;
+        letter-spacing: 0.01rem;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.8);
+        width: 80px;
+        min-width: 80px;
+        text-align: right;
+        font-weight: bold;
+
+    }
+
+    .detail-box .body .list-heading .item .quantity-product {
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        text-align: right;
+        font-family: Med;
+
+    }
+
+    .detail-box .body .list-footer .item .value-total {
+        width: 80px;
+        min-width: 80px;
+        text-align: right;
+        font-family: Bd;
+        font-size: 24px;
+        color: #C52121;
+        font-weight: bold;
+        line-height: 24px;
+        ;
+
+    }
+
+    .detail-box .body .list-footer .item .label-total .text-notes-product {
+        font-family: Reg;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        text-transform: initial;
+    }
+
+    .detail-box .body .list-footer .item .label-total {
+        font-family: Bd;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        text-transform: uppercase;
+        flex-grow: 1;
+        text-align: left;
+    }
+
+    .detail-box .body .list-footer .item .value-product {
+        width: 80px;
+        min-width: 80px;
+        text-align: right;
+        font-family: Bd;
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: 700;
+
+    }
+
+    .detail-box .body .list-footer .item .label-total-service {
+        font-family: Med;
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        flex-grow: 1;
+        text-align: left;
+    }
+
+    .detail-box .body .list-heading .item .label-product-date {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: Bd;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .detail-box .body .list-heading .item .label-product-name {
+        font-size: 20px;
+        line-height: 100%;
+        font-family: Med;
+        color: rgba(0, 0, 0, 0.8);
+
+    }
+
+    .unit-adj {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .unit-adj>.btn-dec {
+        background-image: url(images/i-decrease.svg);
+    }
+
+    .unit-adj>.btn-dec,
+    .unit-adj>.btn-inc {
+        width: 24px;
+        height: 24px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -o-border-radius: 16px;
+        border-radius: 16px;
+        background-size: 24px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .unit-adj>.unit-count {
+        margin-right: 8px;
+        margin-left: 8px;
+        padding: 0;
+        width: 32px;
+        height: 32px;
+        font-family: Bd;
+        font-size: 24px;
+        text-align: center;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.05);
+        border: none;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .unit-adj>.btn-inc {
+        background-image: url(images/i-increase.svg);
+    }
+</style>

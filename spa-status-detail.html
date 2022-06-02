@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Service Status</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/font.css" />
+	<link rel="stylesheet" href="css/style-nobleliving.css" />
+	<link rel="stylesheet" href="css/style-nobleliving-add.css" />
+	<style>
+		.date-cancel {
+			font-family: Reg;
+			font-size: 18px;
+			text-decoration: line-through;
+			color: rgba(0, 0, 0, 0.4);
+		}
+
+		.btn-circle {
+			width: 40px;
+			height: 40px;
+			padding: 8px;
+			border-radius: 50%;
+		}
+
+		.btn-gray {
+			background-color: #f2f2f2;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="page" id="main">
+		<!-- Appbar -->
+		<nav class="app-navbar">
+			<div class="ribbon">
+				<div class="strip color-1"></div>
+				<div class="strip color-2"></div>
+				<div class="strip color-3"></div>
+				<div class="strip color-4"></div>
+			</div>
+			<!-- <div class="app-navbar-inner">
+				<div class="i-avatar"></div>
+				<img class="app-logo" src="images/logo-noble_id.png" />
+				<ul class="app-lang">
+					<li><a class="app-lang-link active" href="#">EN</a></li>
+					<li><a class="app-lang-link" href="#">TH</a></li>
+				</ul>
+			</div> -->
+		</nav>
+		<!-- Navbar Page -->
+		<nav class="page-navbar" style="border-bottom: 1px solid rgba(0, 0, 0, 0.05);">
+			<button class="btn btn-back" type="button" onclick="window.history.go(-1)"></button><span
+				class="title">summary</span>
+		</nav>
+		<!-- Body -->
+		<div class="box">
+			<div class="body">
+				<!-- Location -->
+				<div class="service-detail-list-item" style="padding-top: 0px;">
+					<div class="detail-box">
+						<div class="heading">
+							<h5 class="title">ESTIMATE DATE OF RECEIVING</h5>
+						</div>
+						<div class="body">
+							<div class="list-heading">
+								<div class="item">
+									<div class="label-product-date">20-23 June 2021</div>
+								</div>
+							</div>
+							<div class="list-body">
+								<div class="item">
+									<div class="label">Order Date : 11 June 2021</div>
+								</div>
+							</div>
+							<div class="list-footer">
+								<div class="item">
+									<div class="label"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="service-detail-list-item">
+					<div class="detail-box">
+						<div class="heading">
+							<h5 class="title">Service</h5>
+						</div>
+						<div class="body">
+							<div class="list-body package-list">
+								<div class="item">
+									<div class="label-product-name">
+										Eastern Treat Shower & Bath Cream 230 ml
+									</div>
+									<div class="number">
+										<button class="btn btn-number-dec" type="button">
+											<span class="i-dec"></span>
+										</button>
+										<input class="item-number" type="text" value="1" />
+										<button class="btn btn-number-inc" type="button">
+											<span class="i-inc"></span>
+										</button>
+									</div>
+									<div class="value-product">650 THB</div>
+								</div>
+
+								<div class="item">
+									<div class="label-product-name">Eastern Treat Nourish Body Cream 220 ml</div>
+									<div class="number">
+										<button class="btn btn-number-dec" type="button">
+											<span class="i-dec"></span>
+										</button>
+										<input class="item-number" type="text" value="1" />
+										<button class="btn btn-number-inc" type="button">
+											<span class="i-inc"></span>
+										</button>
+									</div>
+									<div class="value-product">60 THB</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Additional -->
+				<div class="service-detail-list-item">
+					<div class="detail-box">
+						<div class="heading">
+							<h5 class="title">Additional</h5>
+						</div>
+						<div class="body">
+							<div class="list-heading">
+								<div class="item">
+									<div class="label"></div>
+								</div>
+							</div>
+							<div class="list-body">
+								<div class="item">
+									<div class="label">-</div>
+								</div>
+							</div>
+							<div class="list-footer">
+								<div class="item">
+									<div class="label"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="service-detail-list-item">
+					<div class="detail-box">
+						<div class="body">
+							<div class="list-heading">
+								<div class="item">
+									<div class="label"></div>
+								</div>
+							</div>
+
+							<div class="list-footer">
+								<div class="item">
+									<div class="label-total-service">
+										TOTAL SERVICE
+									</div>
+									<div class="value-product" style="white-space: nowrap">
+										1,600 THB
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="label-total-service">
+										DELIVERY FEE
+									</div>
+									<div class="value-product" style="white-space: nowrap">
+										70 THB
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="label-total">
+										Total <br> <span class="text-notes-product">
+											(Vat 7% Included)</span>
+									</div>
+									<div class="value-total" style="white-space: nowrap">
+										1,670 THB
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+		<!-- Footer Float -->
+		<div class="box-bottom-action laundry">
+			<div class="info">
+				<div class="label">Total 1 Selected</div>
+				<div class="value">1,670 THB</div>
+			</div>
+			<button class="btn btn-checkout" type="button" style="font-family: Bd;">CONFIRM</button>
+		</div>
+	</div>
+</body>
+
+</html>
+
+
+<style>
+	.detail-box .body .list-body .item .label-product-name {
+		font-size: 20px;
+		line-height: 100%;
+		font-family: Med;
+		color: rgba(0, 0, 0, 0.8);
+		flex-grow: 1;
+		text-align: left;
+		letter-spacing: 0.01rem;
+		text-transform: uppercase;
+	}
+
+	.detail-box .body .list-body .item .value-product {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 80px;
+		min-width: 80px;
+		text-align: right;
+		font-family: Bd;
+		font-size: 20px;
+		letter-spacing: 0.01rem;
+		text-transform: uppercase;
+		color: rgba(0, 0, 0, 0.8);
+	}
+
+
+	.detail-box .body .list-heading .item {
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 12px;
+		display: flex;
+		flex-direction: row;
+		justify-items: stretch;
+		width: 100%;
+	}
+
+	.detail-box .body .list-heading .item .value-product-price {
+		font-family: Med;
+		font-size: 20px;
+		letter-spacing: 0.01rem;
+		text-transform: uppercase;
+		color: rgba(0, 0, 0, 0.8);
+		width: 80px;
+		min-width: 80px;
+		text-align: right;
+		font-weight: bold;
+
+	}
+
+	.detail-box .body .list-footer .item .value-total {
+		width: 80px;
+		min-width: 80px;
+		text-align: right;
+		font-family: Bd;
+		font-size: 24px;
+		color: #C52121;
+		font-weight: bold;
+		line-height: 24px;
+		;
+
+	}
+
+	.detail-box .body .list-footer .item .label-total .text-notes-product {
+		font-family: Reg;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 20px;
+		color: rgba(0, 0, 0, 0.8);
+		text-transform: initial;
+	}
+
+	.detail-box .body .list-footer .item .label-total {
+		font-family: Bd;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 20px;
+		color: rgba(0, 0, 0, 0.8);
+		text-transform: uppercase;
+		flex-grow: 1;
+		text-align: left;
+	}
+
+
+	.detail-box .body .list-footer .item .label-total-service {
+		font-family: Med;
+		font-size: 20px;
+		line-height: 20px;
+		color: rgba(0, 0, 0, 0.8);
+		flex-grow: 1;
+		text-align: left;
+	}
+
+	.detail-box .body .list-heading .item .label-product-date {
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 24px;
+		font-family: Bd;
+		color: rgba(0, 0, 0, 0.8);
+	}
+</style>
